@@ -1,0 +1,25 @@
+/* sejin and jhankar mahbub pic */
+#image{
+    height: 518px;
+}
+/* text color orange */
+.text-orange{
+    color: orange;
+}
+/* btn orange */
+.btn.btn-orange{
+    background: linear-gradient(to right, orangered, orange);
+    height: 45px;
+}
+.btn.btn-orange:hover{
+    background: linear-gradient(to right, rgb(173, 46, 0), rgb(201, 130, 0));
+}
+/* experiences > div */
+#experiences div{
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient(orangered, orange);
+    border-image-slice: 1;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
